@@ -17,4 +17,5 @@ jobs:
         uses: ludeeus/action-shellcheck@master
         with:
           # ignore_names: examples/bad.sh # does not work
-          ignore_names: ./examples/bad.sh
+          # ignore_names: ./examples/bad.sh # does not work
+          ignore_names: bad.sh
