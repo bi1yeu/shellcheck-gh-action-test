@@ -18,4 +18,5 @@ jobs:
         with:
           # ignore_names: examples/bad.sh # does not work
           # ignore_names: ./examples/bad.sh # does not work
-          ignore_names: bad.sh
+          # ignore_names: bad.sh # works, but not what i need
+          ignore_paths: ./examples/bad.sh
