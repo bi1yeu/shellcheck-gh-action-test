@@ -22,5 +22,6 @@ jobs:
           # ignore_paths: ./examples/bad.sh # does not work
           # ignore_paths: '*./examples/bad.sh' # does not work
           # ignore_paths: examples # works, but not what i need
-          # ignore_paths: examples/bad.sh # doesn't work
-          ignore_names: '*examples/bad.sh'
+          # ignore_paths: examples/bad.sh # does not work
+          # ignore_names: '*examples/bad.sh' # does not work
+          ignore_names: '\*examples/bad.sh'
